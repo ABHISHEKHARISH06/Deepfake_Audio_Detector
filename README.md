@@ -39,11 +39,13 @@ Activate the virtual environment and launch the Streamlit app:
 On macOS/Linux:
 
 source venv/bin/activate
+
 streamlit run detector.py
 
 On Windows:
 
 venv\Scripts\activate
+
 streamlit run detector.py
 
 This will start the audio deepfake detection interface in your browser. If it doesn’t open automatically, Streamlit will provide a local URL you can click.
