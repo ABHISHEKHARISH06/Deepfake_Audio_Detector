@@ -12,6 +12,7 @@ import scipy.fftpack
 # -----------------------------
 # Config
 # -----------------------------
+
 SAMPLE_RATE = 16000
 N_MELS = 64
 FIXED_FRAMES = 128

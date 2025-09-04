@@ -51,6 +51,7 @@ def extract_mfcc_mean(wave, sr=SR, n_mfcc=N_MFCC):
     return np.mean(mfcc, axis=1)  # shape: (n_mfcc,)
 
 # ---------- Build dataset ----------
+
 print("Listing files...")
 real_files, fake_files = list_audio_files(DATA_DIR)
 print(f"Found {len(real_files)} real files and {len(fake_files)} fake files.")

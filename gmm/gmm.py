@@ -23,6 +23,7 @@ MAX_LEN = 400 # maximum frames per utterance
 # -----------------------------
 # Feature Extraction (CQCC)
 # -----------------------------
+
 def extract_cqcc(file_path, sr=SAMPLE_RATE, n_cqcc=N_CQCC, max_len=MAX_LEN):
     try:
         y, sr = librosa.load(file_path, sr=sr)

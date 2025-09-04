@@ -21,6 +21,7 @@ FIXED_FRAMES = 128   # crop/pad to this many frames
 # -----------------------------
 # Feature Extraction
 # -----------------------------
+
 def extract_melspectrogram(file_path, sr=SAMPLE_RATE, n_mels=N_MELS, max_len=FIXED_FRAMES):
     try:
         y, sr = librosa.load(file_path, sr=sr)
