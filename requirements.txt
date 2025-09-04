@@ -1,0 +1,12 @@
+streamlit
+librosa
+numpy
+scipy
+scikit-learn
+joblib
+matplotlib
+tensorflow
+torch
+torchaudio
+
+
